@@ -1,0 +1,19 @@
+# Eclipse / STS
+.project
+.classpath
+.settings/
+.factorypath
+
+# STS specific
+.springBeans
+
+# VS Code
+.vscode/
+
+# Build output
+bin/
+target/
+
+# OS
+.DS_Store
+Thumbs.db
