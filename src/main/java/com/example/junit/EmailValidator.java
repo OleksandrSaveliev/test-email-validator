@@ -9,7 +9,7 @@ public class EmailValidator {
     }
 
     public String getDomain(String email) {
-        String[] parts = email.split("@");
+        String[] parts = email.split(EMAIL_ADDRESS_SIGN);
         return parts[1];
     }
 }
