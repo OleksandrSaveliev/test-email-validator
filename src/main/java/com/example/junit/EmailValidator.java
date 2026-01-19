@@ -8,8 +8,8 @@ public class EmailValidator {
         return email.contains(EMAIL_ADDRESS_SIGN);
     }
 
-    public String getDomain(String string) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getDomain'");
+    public String getDomain(String email) {
+        String[] parts = email.split("@");
+        return parts[1];
     }
 }
