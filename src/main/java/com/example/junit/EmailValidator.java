@@ -7,4 +7,9 @@ public class EmailValidator {
     public boolean isValidEmail(String email) {
         return email.contains(EMAIL_ADDRESS_SIGN);
     }
+
+    public String getDomain(String string) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getDomain'");
+    }
 }
